@@ -43,12 +43,12 @@ const tasksSlice = createSlice({
             reducer(state, action: PayloadAction<TaskType>) {
                 state.push(action.payload);
             },
-            prepare(title: string) {
+            prepare(title: string, description: string) {
                 return {
                     payload: {
                         id: nanoid(),
                         title,
-                        description: null,
+                        description,
                         completed: false,
                     } as TaskType,
                 };
