@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/miratech-test-task/static/css/main.f5fd7a08.css",
-    "main.js": "/miratech-test-task/static/js/main.020e5ed2.js",
+    "main.css": "/miratech-test-task/static/css/main.636c4b29.css",
+    "main.js": "/miratech-test-task/static/js/main.a166b9d8.js",
     "static/js/453.84c5b98b.chunk.js": "/miratech-test-task/static/js/453.84c5b98b.chunk.js",
     "index.html": "/miratech-test-task/index.html",
-    "main.f5fd7a08.css.map": "/miratech-test-task/static/css/main.f5fd7a08.css.map",
-    "main.020e5ed2.js.map": "/miratech-test-task/static/js/main.020e5ed2.js.map",
+    "main.636c4b29.css.map": "/miratech-test-task/static/css/main.636c4b29.css.map",
+    "main.a166b9d8.js.map": "/miratech-test-task/static/js/main.a166b9d8.js.map",
     "453.84c5b98b.chunk.js.map": "/miratech-test-task/static/js/453.84c5b98b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5fd7a08.css",
-    "static/js/main.020e5ed2.js"
+    "static/css/main.636c4b29.css",
+    "static/js/main.a166b9d8.js"
   ]
 }
