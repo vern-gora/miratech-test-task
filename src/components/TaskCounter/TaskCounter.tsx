@@ -20,11 +20,11 @@ const TaskCounter: React.FC = () => {
     );
 
     return (
-        <div>
+        <>
             <p className={css.text}>All: {count.current + count.completed}</p>
             <p className={css.text}>Current: {count.current}</p>
             <p className={css.text}>Completed: {count.completed}</p>
-        </div>
+        </>
     );
 };
 

@@ -26,31 +26,33 @@ const TaskForm: React.FC = () => {
     };
 
     return (
-        <form className={css.form} onSubmit={handleSubmit}>
-            <input
-                required
-                className={css.field}
-                type="text"
-                name="title"
-                value={title}
-                onChange={handleChange}
-                placeholder="Enter task title..."
-                maxLength={20}
-            />
-            <input
-                required
-                className={css.field}
-                type="text"
-                name="description"
-                value={description}
-                onChange={handleChange}
-                placeholder="Enter task description..."
-                maxLength={50}
-            />
-            <Button type="submit" selected={false}>
-                Add task
-            </Button>
-        </form>
+        <>
+            <form className={css.form} onSubmit={handleSubmit}>
+                <input
+                    required
+                    className={css.field}
+                    type="text"
+                    name="title"
+                    value={title}
+                    onChange={handleChange}
+                    placeholder="Title..."
+                    maxLength={20}
+                />
+                <input
+                    required
+                    className={css.field}
+                    type="text"
+                    name="description"
+                    value={description}
+                    onChange={handleChange}
+                    placeholder="Description..."
+                    maxLength={50}
+                />
+                <Button type="submit" selected={false} className={css.btn}>
+                    Add task
+                </Button>
+            </form>
+        </>
     );
 };
 

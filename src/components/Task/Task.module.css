@@ -1,8 +1,25 @@
 .wrapper {
+    position: relative;
     display: flex;
     align-items: center;
+    /* justify-content: space-between; */
     gap: 12px;
     padding: 8px 0;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.text:hover .description,
+.text:focus .description {
+    transform: translateY(0);
 }
 
 .title {
@@ -11,6 +28,12 @@
 
 .description {
     font-size: 10px;
+    position: absolute;
+    right: 0px;
+    transform: translateX(100%);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: linear;
 }
 
 .btn {
@@ -26,6 +49,7 @@
     background-color: transparent;
     cursor: pointer;
     color: #f44336;
+    transition: background-color 200ms linear;
 }
 
 .btn:hover {

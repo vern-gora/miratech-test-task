@@ -27,8 +27,10 @@ const Task = ({ task }: { task: TaskType }) => {
                 checked={task.completed}
                 onChange={handleToggle}
             />
-            <p className={css.title}>{task.title}</p>
-            <p className={css.description}>{task.description}</p>
+            <div className={css.text}>
+                <p className={css.title}>{task.title}</p>
+                <p className={css.description}>{task.description}</p>
+            </div>
             <button className={css.btn} onClick={handleDelete}>
                 <MdClose size={24} />
             </button>
